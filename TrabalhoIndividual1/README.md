@@ -1,7 +1,7 @@
 # Algoritmo de Karatsuba em Python
 
 ## Descrição do Projeto
-Implementação do algoritmo de Karatsuba para multiplicação eficiente de números inteiros grandes. O algoritmo reduz a complexidade da multiplicação tradicional de \(O(n^2)\) para \(O(n^{\log_2 3}) \approx O(n^{1.585})\), utilizando divisão e conquista recursiva.
+Implementação do algoritmo de Karatsuba para multiplicação eficiente de números inteiros grandes. O algoritmo reduz a complexidade da multiplicação tradicional de \(O(n^2)\) para \(O(n^{\log_2 3}) \O(n^{1.585})\), utilizando divisão e conquista recursiva.
 
 ### Lógica do Algoritmo (Passo a Passo):
 1. **Validação de Entradas**:  
@@ -19,9 +19,8 @@ Implementação do algoritmo de Karatsuba para multiplicação eficiente de núm
      - `z2 = karatsuba(high_x, high_y)`.
 6. **Combinação**:  
    - Aplica a fórmula:  
-     \[
-     \text{resultado} = z2 \times 10^{2n/2} + (z1 - z2 - z0) \times 10^{n/2} + z0
-     \]
+     z2 * 10^{2n/2} + (z1 - z2 - z0) * 10^{n/2} + z0
+     
 7. **Ajuste Final**:  
    - Multiplica o resultado pelo sinal armazenado.
 
@@ -32,12 +31,16 @@ Implementação do algoritmo de Karatsuba para multiplicação eficiente de núm
 ### Passos:
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/trabalho_individual_1_FPAA.git
-   cd trabalho_individual_1_FPAA
+   git clone https://github.com/nATHANnSil/FPAA-1.2025.git
+   
+E navegue até a pasta TrabalhoIndividual1 com:
 
+   ``` 
+   cd FPAA-1.2025/TrabalhoIndividual1
+   ```
 2. Execução do código
     ```
-    python main.py
+    python Karatsuba.py
 
 3. Siga as instruções do Terminal
 
@@ -50,8 +53,6 @@ Implementação do algoritmo de Karatsuba para multiplicação eficiente de núm
 ### Análise da Complexidade Ciclomática
 
 ### Grafo de Fluxo de Controle
-
-![alt text](image-1.png)
 
 Disponível em: https://drive.google.com/file/d/1hSKEn00RUmWY8G1ESnAUAKshnhfz3aCr/view?usp=sharing
 
