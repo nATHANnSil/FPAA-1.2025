@@ -93,6 +93,12 @@ https://drive.google.com/file/d/1emaLp2C-oUJtDE2rF4SRyp6xdSm4tLkp/view?usp=shari
 - **Divisão**: O array é dividido recursivamente até atingir os casos base.
 - **Comparação**: Os resultados das metades são combinados para encontrar o mínimo e o máximo global.
 
-## 📎 Referências
+## Referências
 - [Aula 01 - Análise de Complexidade de Algoritmos](https://github.com/joaopauloaramuni/fundamentos-de-projeto-e-analise-de-algoritmos/blob/main/PDF/AULA%2001_Ana%CC%81lise%20de%20complexidade%20de%20algoritmos.pdf)
 - [Divisão e Conquista - GeeksforGeeks](https://www.geeksforgeeks.org/divide-and-conquer/)
+
+## LICENÇA
+
+Este projeto está licenciado sob a Licença MIT.
+
+
