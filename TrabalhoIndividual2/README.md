@@ -86,7 +86,7 @@ Calculando \( \log_b a = \log_2 2 = 1 \):
 
 A imagem abaixo mostra o diagrama de como o problema é dividido e como os resultados são combinados:
 
-![Diagrama de Divisão e Conquista](/Imagens/DiagramaD&C.jpg)
+![Diagrama de Divisão e Conquista](Imagens/DiagramaD&C.jpg))
 
 https://drive.google.com/file/d/1emaLp2C-oUJtDE2rF4SRyp6xdSm4tLkp/view?usp=sharing
 
