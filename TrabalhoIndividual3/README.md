@@ -107,7 +107,7 @@ Obs.: A cada execução, um novo grafo diferente será gerado.
    - **Melhor Caso**: \(O(1)\), se o caminho for encontrado na primeira tentativa (raro).  
 
 2. **Método de Determinação**:  
-   A complexidade foi calculada via **contagem de operações**. O algoritmo utiliza backtracking para testar todas as permutações possíveis de vértices, resultando em \(V!\) possibilidades. Para cada permutação, são realizadas \(O(V)\) operações de validação, levando a \(O(V \times V!)\).
+   A complexidade foi calculada via **contagem de operações**. O algoritmo utiliza backtracking para testar todas as permutações possíveis de vértices, resultando em \(V!\) possibilidades. Para cada permutação, são realizadas \(O(V)\) operações de validação, levando a \(O(V \* V!)\).
 
 ---
 
@@ -117,7 +117,7 @@ Obs.: A cada execução, um novo grafo diferente será gerado.
    **Não**, pois o Teorema Mestre é usado para resolver recorrências da forma \(T(n) = aT(n/b) + f(n)\), típicas de algoritmos de **divisão e conquista**.  
 
 2. **Justificativa**:  
-   O algoritmo de backtracking utilizado tem recorrência \(T(n) = n \cdot T(n-1) + O(n^2)\), que não se enquadra na estrutura do Teorema Mestre. A recorrência é fatorial, enquanto o Teorema Mestre lida com recorrências polinomiais ou logarítmicas.
+   O algoritmo de backtracking utilizado tem recorrência \(T(n) = n\T(n-1) + O(n^2)\), que não se enquadra na estrutura do Teorema Mestre. A recorrência é fatorial, enquanto o Teorema Mestre lida com recorrências polinomiais ou logarítmicas.
 
 ---
 
